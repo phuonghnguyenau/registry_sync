@@ -1,0 +1,12 @@
+source_registry_credentials:
+  user: <user>
+  token: <token>
+destination_registry_namespace: registry.example.com/
+source_tls_verify: "false"
+destination_tls_verify: "false"
+source_registry_type: "docker://"
+destination_registry_type: "docker://"
+destination_image_tag: latest
+
+container_images:
+- imagename: registry.redhat.io/ubi8/ubi:latest
