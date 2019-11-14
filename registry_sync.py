@@ -1,4 +1,13 @@
 #!/usr/bin/env python
+"""
+Syncs a list of container images (as defined in the configuration file) from a remote registry to destination registry.
+"""
+__author__ = "Phuong Nguyen (pnguyen@redhat.com)"
+__copyright__ = "Copyright 2019"
+__version__ = "20191114"
+__maintainer__ = "Phuong Nguyen"
+__email__ = "pnguyen@redhat.com"
+__status__ = "Production"
 
 import sys
 import yaml

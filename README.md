@@ -1,7 +1,7 @@
 # registry_sync
 ## Overview
 Contains the following items:
-* registry_sync.py - Syncs the contents of a remote registry to destination registry. Supports authentication.
+* registry_sync.py - Syncs a list of container images (as defined in the configuration file) from a remote registry to destination registry. Supports authentication.
 * sample-config.yml - A sample configuration file for registry_sync.py
 
 ## More information on registry_sync.py
