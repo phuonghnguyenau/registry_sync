@@ -7,6 +7,10 @@ destination_tls_verify: "false"
 source_registry_type: "docker://"
 destination_registry_type: "docker://"
 destination_image_tag: latest
+rename_old_tag: "true"
+tag_to_rename: "previous"
+write_image_export_list: "true"
+image_export_list: "image_export_list.txt"
 
 container_images:
 - imagename: registry.redhat.io/ubi8/ubi:latest
